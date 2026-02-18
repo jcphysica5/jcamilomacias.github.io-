@@ -10,7 +10,7 @@
     <a href="{{ .Permalink }}" class="course-card">
       <div class="course-card-image">
         {{ with .Params.image }}
-        <img src="{{ . | absURL }}" alt="{{ $.Title }} cover">
+        <img src="{{ . | relURL }}" alt="{{ $.Title }} cover">
         {{ else }}
         <div class="course-card-image-placeholder"></div>
         {{ end }}
