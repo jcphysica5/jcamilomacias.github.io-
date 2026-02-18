@@ -4,7 +4,6 @@ date = "2024-01-01"
 author = "Camilo Macías"
 description = "Design and build autonomous multi-agent workflows using LangChain and LangGraph — from single-agent loops to complex orchestration patterns."
 image = "/images/teaching/agentic-ai.jpg"
-institution = "IUDigital de Antioquia"
 level = "Graduate"
 tools = ["Python", "LangGraph", "LangChain", "FastAPI"]
 cover = "/images/teaching/agentic-ai.jpg"

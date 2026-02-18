@@ -4,7 +4,6 @@ date = "2025-08-01"
 author = "Camilo Macías"
 description = "Build production-grade LLM applications from scratch using LangChain — covering chains, memory, RAG pipelines, and document ingestion."
 image = "/images/teaching/llm-langchain.jpg"
-institution = "IUDigital de Antioquia"
 level = "Graduate"
 tools = ["Python", "LangChain", "OpenAI API"]
 cover = "/images/teaching/llm-langchain.jpg"

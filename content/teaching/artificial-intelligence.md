@@ -4,7 +4,6 @@ date = "2023-01-01"
 author = "Camilo Macías"
 description = "LLM internals, RAG architectures, and LLMOps — bridging theory and production for engineers building AI-powered systems."
 image = "/images/teaching/artificial-intelligence.jpg"
-institution = "IUDigital de Antioquia"
 level = "Graduate"
 tools = ["Python", "HuggingFace", "LangChain", "Docker"]
 cover = "/images/teaching/artificial-intelligence.jpg"
