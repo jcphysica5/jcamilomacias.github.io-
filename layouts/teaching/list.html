@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section class="teaching-section">
+  <header class="teaching-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="teaching-intro">{{ . }}</div>{{ end }}
+  </header>
+
+  <div class="course-grid">
+    {{ range .Pages }}
+    <a href="{{ .Permalink }}" class="course-card">
+      <div class="course-card-image">
+        {{ with .Params.image }}
+        <img src="{{ . }}" alt="{{ $.Title }} cover">
+        {{ else }}
+        <div class="course-card-image-placeholder"></div>
+        {{ end }}
+        {{ with .Params.institution }}
+        <span class="course-badge">{{ . }}</span>
+        {{ end }}
+      </div>
+      <div class="course-card-body">
+        <h2 class="course-card-title">{{ .Title }}</h2>
+        {{ with .Params.description }}
+        <p class="course-card-desc">{{ . }}</p>
+        {{ end }}
+        <div class="course-card-meta">
+          {{ with .Params.level }}<span class="course-level">{{ . }}</span>{{ end }}
+          {{ with .Params.tools }}<span class="course-tools">{{ delimit . " · " }}</span>{{ end }}
+        </div>
+        <span class="course-card-cta">View course →</span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

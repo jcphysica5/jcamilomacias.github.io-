@@ -2,16 +2,23 @@
 title = "Desarrollo de Aplicaciones con LLM y LangChain"
 date = "2025-08-01"
 author = "Camilo Macías"
+description = "Build production-grade LLM applications from scratch using LangChain — covering chains, memory, RAG pipelines, and document ingestion."
+image = "/images/teaching/llm-langchain.jpg"
+institution = "IUDigital de Antioquia"
+level = "Graduate"
+tools = ["Python", "LangChain", "OpenAI API"]
+cover = "/images/teaching/llm-langchain.jpg"
+coverAlt = "LLM and LangChain course"
 +++
 
-Graduate course on building production-grade applications with Large Language Models using the LangChain framework.
+Course material for **Desarrollo de Aplicaciones con LLM y LangChain**, a graduate course teaching engineers how to build production-grade AI applications using the LangChain framework.
 
 ## Topics
 
 - **Deep Learning Fundamentals** — Neural network foundations for LLM practitioners.
 - **Templates & Output Parsers** — Structuring prompts and parsing model responses.
 - **Chains & Memory** — Composing LLM calls and managing conversation state.
-- **Document Loaders** — Ingesting and processing external data sources for RAG pipelines.
+- **Document Loaders & RAG** — Ingesting external data sources for retrieval-augmented generation pipelines.
 
 ## Resources
 
