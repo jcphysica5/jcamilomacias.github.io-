@@ -57,7 +57,7 @@ jobs:
           HUGO_ENV: production
         run: |
           . ./scripts/hugo-env && \
-          hugo
+          hugo --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
